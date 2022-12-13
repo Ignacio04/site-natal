@@ -1,16 +1,34 @@
 .ImgExemplo{
-    width: 100%;
-    height: 480px;
-    display: flex;
-    justify-content: left;
-    margin-left: 0px;
-    flex-direction: column;
+    height: auto;
+    width:auto;
+    display: inline-flex;
+    position:fixed;
+    margin: auto;
+    margin-top: 26px;
+    left:0%;
+    right: 0%;
+    flex-direction: row;
 }
 
 .ImgExemplo img{
-    width: 100%;
+    width: 50%;
     height:100%;
     max-height: 480px;
     left: 0px;
+    display: flex;
+
+    
+}
+
+.ImgExemplo figcaption {
+    position:fixed;
+    margin-top: 5%;
+    margin-left: 24%;
+    /*right: 20px;*/
+
+    font-size: 60px;
+    color: white;
+    font-weight: bold;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     
 }
