@@ -1,0 +1,24 @@
+
+
+.menu{
+    position: absolute;
+    align-items: center;
+    justify-content: space-around;
+    top: 0px;
+    font-weight: bold;
+    display: flex;
+    background-color: rgb(143, 19, 19);
+    width:100%;
+    left:0%;
+    right: 0%;
+    height: 42px;
+    flex: auto;
+}
+.menu button{
+    color: #fff;
+    text-decoration: none;
+    border-color: transparent;
+    background-color: transparent;
+    font-size: 18px;
+    font-weight: bold;
+}

@@ -1,5 +1,7 @@
 import './App.css';
-import Header from './components/Header';
+import Menu from './components/Menu/index';
+import ImgNatal from './components/Menu/imagem';
+import TextoPromocao from './components/Menu/textopromo';
 import About from './components/About';
 import Products from './components/Products';
 import Footer from './components/Footer';
@@ -7,8 +9,9 @@ import Footer from './components/Footer';
 function App() {
   return (
     <div className="App">
-      <Header />
-      <h2>Hello React</h2>
+      <Menu/>
+      <ImgNatal/>
+      <TextoPromocao/>
       <Products />
       <About />
       <Footer />
