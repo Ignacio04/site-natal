@@ -7,13 +7,16 @@
     top: 0px;
     font-weight: bold;
     display: flex;
-    background-color: rgb(143, 19, 19);
+    background-color: #940905;
     width:100%;
     left:0%;
     right: 0%;
     height: 42px;
     flex: auto;
+
+    
 }
+
 .menu button{
     color: #fff;
     text-decoration: none;
@@ -22,3 +25,32 @@
     font-size: 18px;
     font-weight: bold;
 }
+/* acho q inutil*/
+/*.menu figcaption {
+    position:absolute;
+
+    width: 535px;
+    height: 136px;
+    left: 40px;
+    top: 381px;
+
+    text-shadow: 4px 4px 5px #009438;
+    font-size: 60px;
+    color: white;
+    font-weight: bold;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+    
+    
+}*/
+
+.linear-gradient {
+    position: absolute;
+width: 860px;
+height: 166px;
+left: 0px;
+top: 356px;
+
+background: linear-gradient(180deg, rgba(120, 0, 0, 0) 0%, #780000 100%);
+
+  }

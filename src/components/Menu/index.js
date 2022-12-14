@@ -18,6 +18,7 @@ export default function Menu(){
       <button className="BSobre" onClick={clicado}>
         Sobre
         </button>
+        <figcaption>Promoção de Natal na DecorHouse!</figcaption>
       
     </div>
   )

@@ -7,7 +7,7 @@ import Footer from './components/Footer';
 
 function App() {
   return (
-    <div className="Appp">
+    <div className="App">
       <Menu/>
       <ImgNatal/>
       <Products />

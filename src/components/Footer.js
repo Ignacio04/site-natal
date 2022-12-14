@@ -2,7 +2,7 @@
 
 function Footer() {
     return (
-      <div className="pe">
+      <div className="Footer">
         <p>Footer</p>
       </div>
     );
