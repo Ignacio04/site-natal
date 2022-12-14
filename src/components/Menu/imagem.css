@@ -1,0 +1,39 @@
+.ImgExemplo{
+    position: absolute;
+    width: 63%;
+    height: 860px;
+    align-content: center;
+    left: 360px;
+    top: 42px;
+    
+    background: url("https://img.elo7.com.br/product/zoom/3D90CD6/painel-3d-sublimado-natal-lareira-arvore-fundo-fotografico-fundo-fotografico-de-natal.jpg");
+}
+
+
+/*.linear-gradient {
+    position: absolute;
+    align-self: center;
+width: 860px;
+height: 166px;
+left: 0px;
+top: 356px;
+
+background: linear-gradient(180deg, rgba(120, 0, 0, 0) 0%, #780000 100%);
+  }*/
+
+.ImgExemplo figcaption {
+    position:fixed;
+    /*margin-top: 5%;
+    margin-left: 24%;*/
+    width: 535px;
+    height: 180px;
+    left: 450px;
+    top: 750px;
+    /*right: 20px;*/
+    text-shadow: 4px 4px 5px #009438;
+    font-size: 60px;
+    color: white;
+    font-weight: bold;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+}
