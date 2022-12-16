@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;600;700&display=swap');
+*{
+  font-family: 'Poppins', sans-serif;
+}
+
+h2 {
+  background-color: #780000;
+  font-size: 25px;
+  width: 60%;
+  color: white;
+  text-align: center;
+}
+
+.Products {
+  background-color: white;
+  margin: 3rem auto 0;
+  padding: 7vh 20%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.productsBox {
+  width: 100%;
+}
+
+.tabs_head h3 {
+  background-color: #780000;
+  margin: 10px;
+  width: 100%;
+  color: white;
+  display: flex;
+  justify-content: center;
+  font-weight: normal;
+}
+
+.box_price {
+  float: right;
+  background-color: #780000;
+  border-radius: 50%;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  width: 50px;
+  margin: 2%;
+  padding: 5px;
+  font-weight: bold;
+}
+
+.tabs_head {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 0;
+}
+
+.item_name {
+  color: black;
+  margin: 0;
+  padding: 2% 3%;
+  display: flex;
+}
+
+.tab_contant {
+  color: black;
+  background-color: white;
+}
+
+.tabs_head button {
+  height: 100%;
+  flex-grow: 1;
+  margin: 0;
+  font-size: 120%;
+  border: none;
+  color: white;
+  background-color: #780000;
+  cursor: pointer;
+  display: flex;
+  font-style: 100;
+}
+
+.item_description {
+  padding: 1% 3%;
+  margin: 0;
+  display: flex;
+}
+
+.tab_contant:hover,
+.item_name:hover{
+  background-color: #EEEEEE;
+}
+
+.tabs_head button h3:hover,
+.tabs_head button h3:active {
+  font-weight: bold;
+}
