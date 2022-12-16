@@ -6,7 +6,7 @@
     justify-content: space-around;
     top: 0px;
     display: flex;
-    background-color: #940905;
+    background-color: #4A0101;
     width:100%;
     left:0%;
     right: 0%;
@@ -25,4 +25,8 @@
     border-color: transparent;
     background-color: transparent;
     font-size: 18px;
+}
+
+.menu button:hover{
+    font-weight: bold;
 }

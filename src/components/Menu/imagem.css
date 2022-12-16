@@ -1,14 +1,13 @@
-@media only screen and (max-width: 700px){
-    .responsive {
-      width: 49.99999%;
-      margin: 6px 0;
-    }
-    @media only screen and (max-width: 500px) {
-        .responsive {
-          width: 100%;
-        }
-      }
+@media screen and (max-width: 600px) {
+  .ImgExemplo figcaption{
+    font-size: 45px;
   }
+}
+
+
+body{
+  margin:0;
+}
 .ImgExemplo{
     position: absolute;
     width: 100%;
@@ -18,19 +17,18 @@
     background-size: 100%;
     overflow: auto;
     background-position: 100%;
-    margin-left: -932px;    
-    display: inline-block;
     
 }
 
 .ImgExemplo figcaption {
-    position:relative;
-    width: 535px;
+    position:left,sticky;
+    width: 700px;
     height: 180px;
-    left: 650px;
+    margin-left:100px;
+    margin-top: 380px;
     top: 20px;
     text-shadow: 4px 4px 5px #940905;
-    font-size: 90px;
+    font-size: 80px;
     color: white;
     font-weight: bold;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
