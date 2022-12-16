@@ -2,8 +2,15 @@ import './menu.css';
 
 
 function clicado(){
-  alert("Botao Clicado")
+  alert("Voce ja esta na Home!")
 }
+function descemeio(){
+  window.scrollTo(0,5000)
+}
+function descefim(){
+  window.scrollTo(0,10000)
+}
+
 
 export default function Menu(){
   return(
@@ -12,13 +19,13 @@ export default function Menu(){
       <button className="BHome" onClick={clicado}>
         Home
         </button>
-      <button className="BProdutos" onClick={clicado}>
+      <button className="BProdutos" onClick={descemeio}>
         Produtos
         </button>
-      <button className="BSobre" onClick={clicado}>
+      <button className="BSobre" onClick={descefim}>
         Sobre
         </button>
-        <figcaption>Promoção de Natal na DecorHouse!</figcaption>
+        
       
     </div>
   )
