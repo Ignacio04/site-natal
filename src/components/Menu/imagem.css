@@ -2,11 +2,15 @@
 .ImgExemplo{
     position: absolute;
     width: 100%;
-    height: 99%;
+    height: 60%;
     top: 42px;
+    background-position-x:left;
+    background-position: 0%;
     background: url("https://img.elo7.com.br/product/zoom/3D90CD6/painel-3d-sublimado-natal-lareira-arvore-fundo-fotografico-fundo-fotografico-de-natal.jpg");
     background-size: 100%;
-    margin-left: 0px;   
+    margin-left: -932px;    
+    display: inline-block;
+    
 }
 
 .ImgExemplo figcaption {
