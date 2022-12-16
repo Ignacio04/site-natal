@@ -5,8 +5,8 @@ function clicado(){
   alert("Voce ja esta na Home!")
 }
 function descemeio(){
-  window.scrollTo(0,5000)
-}
+  window.scrollTo(0,500)
+} 
 function descefim(){
   window.scrollTo(0,10000)
 }
