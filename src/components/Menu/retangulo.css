@@ -1,0 +1,26 @@
+#rectangle{
+    width:100%;
+    height:860px;
+    background: linear-gradient(0deg, rgba(120, 0, 0, 0) 0%, #780000 100%);;
+    display: flex;
+    flex: auto;
+    left: 0%;
+    right: 0%;
+}
+.geral figcaption {
+    position:absolute;
+    /*margin-top: 5%;
+    margin-left: 24%;*/
+    width: 535px;
+    height: 180px;
+    left: 80px;
+    top: 710px;
+    /*right: 20px;*/
+    text-shadow: 4px 4px 5px #009438;
+    font-size: 60px;
+    color: white;
+    font-weight: bold;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+    
+}
