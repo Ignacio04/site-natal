@@ -1,5 +1,49 @@
 .About{
-    margin: auto;
-    position: inherit;
+    margin:auto;
+    position:inherit;
     top: 50%;
+    width:800px;
 }
+
+.About ab1 {
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 0px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
+    background-color: #780000;
+    font-size: 25px;
+    width: 140px;
+    color: white;
+    text-align: justify;
+  }
+  .About ideal{
+    width:fit-content
+  }
+  ab2 {
+    margin-top: 100px;
+    margin-bottom: 100px;
+
+    font-size: 15px;
+
+    text-align:justify;
+
+  }
+
+  .About ab3 {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    font-size: 14px;
+    width: 388px;
+    text-align: justify;
+  }
+
+  .About ab4 {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    font-size: 10px;
+    width: 434px;
+    text-align: justify;
+  }
