@@ -1,9 +1,35 @@
 .Footer {
-    background-image: url("C:\Users\ignac\Documents\My Games\site-natal\public\rodape.png");
+    background-image: url("C:\Users\tomas\Documents\GitHub\site-natal\public\rodape.png");
+    background-repeat: no-repeat;
     background-size: 100%;
     height: 200px;
     width: 100%;
+    display:flex;
+
+    
 }
 .Footer p{
     margin: 0;
+}
+.popo a{
+    text-decoration: none;
+    padding: 0 10px;
+}
+.popo{
+    display: flex;
+    position: sticky;
+    width: 100%;
+    justify-content: center;
+    flex-direction: row;
+    align-items: flex-end;
+    font-size:1.5vw;
+}
+.popo p{
+    color: white;
+    background-color: black;
+}
+.sla{
+    
+    color:white;
+    background-color: black;
 }
