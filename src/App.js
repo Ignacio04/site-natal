@@ -4,6 +4,7 @@ import ImgNatal from './components/Menu/imagem';
 import About from './components/About';
 import Products from './components/Products';
 import Footer from './components/Footer';
+import Insta from './components/Insta';
 import RetTras from './components/Menu/retangulo';
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
       <RetTras/>
       <Products />
       <About />
+      <Insta />
       <Footer />
     </div>
   );
