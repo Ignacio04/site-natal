@@ -2,21 +2,42 @@
 
 
 .Insta{
-    background-color: #780000;
-    height:500px;
+    background-color: #4A0101;
+    height: 600px;
     width: 100%;
 }
-#siga{
+.Insta h1{
     color:white;
+    padding-top: 50px;
+}
+.Insta a{
+    text-decoration: none;
+}
+.Insta p{
+    background-color: white;
+    color: black;
+    width: 70%;
+    margin: 0;
+    padding: 5px;
+    box-sizing: border-box;
+    
 }
 .img{
     justify-content: space-around;
     display: flex;
 }
 .imagens img{
-    
-    height: 380px;
-    width: 95%;
-    
-    
+    height: 320px;
+    width: 70%;
+}
+.imagens{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.canto_esquerdo{
+    border-end-start-radius: 20px;
+}
+.canto_direito{
+    border-end-end-radius: 20px;
 }

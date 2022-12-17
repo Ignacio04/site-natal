@@ -21,21 +21,18 @@ body{
     background-size: 100%;
     overflow: auto;
     background-position: 100%;
-    
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
 }
 
 .ImgExemplo figcaption {
-    position:left,sticky;
     width: 700px;
-    height: 180px;
-    margin-left:100px;
-    margin-top: 380px;
+    height: 55%;
+    padding-left: 5%;
     top: 20px;
     text-shadow: 4px 4px 5px #940905;
-    font-size: 80px;
+    font-size: 70px;
     color: white;
     font-weight: bold;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    
-    
 }

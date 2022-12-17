@@ -8,7 +8,7 @@ function descemeio(){
   window.scrollTo(0,500)
 } 
 function descefim(){
-  window.scrollTo(0,10000)
+  window.scrollTo(0,1300)
 }
 
 
