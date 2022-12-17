@@ -1,9 +1,9 @@
-//import './Footer.css';
+import './Footer.css';
 
 function Footer() {
     return (
       <div className="Footer">
-        <p>Footer</p>
+        <p></p>
       </div>
     );
   }

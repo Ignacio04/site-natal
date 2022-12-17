@@ -1,0 +1,22 @@
+
+
+
+.Insta{
+    background-color: #780000;
+    height:500px;
+    width: 100%;
+}
+#siga{
+    color:white;
+}
+.img{
+    justify-content: space-around;
+    display: flex;
+}
+.imagens img{
+    
+    height: 380px;
+    width: 95%;
+    
+    
+}

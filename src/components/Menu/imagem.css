@@ -1,7 +1,11 @@
+/*acho que nao ta funcionando*/
 @media screen and (max-width: 600px) {
   .ImgExemplo figcaption{
     font-size: 45px;
   }
+}
+*{
+  font-family: 'Poppins', sans-serif;
 }
 
 
